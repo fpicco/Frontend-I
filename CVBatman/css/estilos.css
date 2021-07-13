@@ -1,0 +1,35 @@
+/* Estilos de Header */
+header {
+  background-color: #e5e5e5;
+  text-align: center;
+}
+/* .img-batman{
+    width: 100px;
+    margin-left: 0;
+    margin-right: 0;
+} */
+h1 {
+  background-color: #c4c4c4;
+  color: #005677;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+/* Estilos de Main */
+.container-section {
+  margin: auto;
+  width: 70%;
+}
+.h2-section {
+  background-color: #c4c4c4;
+  color: #005677;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+.span-datospersonales {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Estilos de Footer */
