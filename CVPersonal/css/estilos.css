@@ -1,0 +1,27 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+a{
+    text-decoration: none;
+    color:#F3B9BD;
+    font-family: 'Roboto', sans-serif; 
+}
+/* Header */
+header{
+    background: #F3B9BD url("../img/cherry-blossom-tree-1225186_1920.jpg") no-repeat fixed center;
+    height: 150px;
+    margin: 0;
+    text-align: center;
+}
+h1{
+    font-family: 'Roboto', sans-serif; 
+    background-color: #F3B9BD;
+    color: #fff;
+    padding: 5px;
+    margin: 0;
+}
+
+/* Main */
+
+
+/* Footer */
