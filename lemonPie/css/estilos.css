@@ -1,0 +1,45 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+/* Header */
+
+/* Main */
+h1{
+    font-weight: 900;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+h3 {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.banner {
+  background: wheat url("../img/lemon-pie.svg") no-repeat fixed center;
+  /* background-color: wheat;
+  background-image: url("../img/lemon-pie.svg");
+  background-repeat: no-repeat;
+    background-attachment: fixed; 
+  background-position: center;
+*/
+  background-size: cover;
+  height: 460px;
+}
+
+/* Footer */
+footer {
+  background-color: #ccc;
+  text-align: center;
+}
