@@ -1,0 +1,112 @@
+/* Estilos generales */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+a {
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+/* Header */
+.publicidad {
+  background-color: #000;
+  color: white;
+}
+.publicidad p {
+  display: inline-block;
+}
+.logo {
+  background-color: #f0a83e;
+  margin-bottom: 0;
+}
+.logo span {
+  color: #000;
+}
+h1 {
+  display: inline-block;
+}
+.section-banner h2 {
+  font-size: 30px;
+  background-color: #fff;
+  line-height: 35px;
+  margin: 0;
+  display: inline-block;
+  font-weight: 400;
+}
+nav {
+  display: inline-block;
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+/* Main */
+.section-banner {
+  background: #89d0aa url("../img/bowl-and-pet-daities-on-green-background.png")
+    no-repeat center;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+}
+.comederos {
+  background-color: #f0a83e;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.section-paw-icon {
+  color: #f0a83e;
+  height: 60px;
+  font-size: 60px;
+  display: block;
+  text-align: center;
+}
+.section-prodDestacados {
+  text-align: center;
+}
+
+.section-prodDestacados ul li {
+  display: inline-block;
+}
+
+.section-prodDestacados div {
+  display: inline-block;
+}
+.productos-descrip, .productos-precio{
+  font-size: 15px;
+  font-weight: 500;
+
+}
+.productos-precio{
+  color: #f0a83e;
+}
+/* Footer */
+footer {
+  color: #fff;
+}
+.footer-contacto {
+  background-color: #3c2313;
+  padding: 20px;
+}
+.footer-contacto h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.footer-contacto p {
+  font-size: 10px;
+  color: #8a8787;
+}
+.footer-contacto i {
+  font-size: 60px;
+}
+.footer-derechos {
+  background-color: #000;
+  text-align: center;
+  margin: 0;
+  line-height: 25px;
+}
