@@ -12,18 +12,27 @@ ul {
 }
 
 /* Header */
+header ul{
+  padding: 0;
+}
 
 /* Main */
 h1{
-    font-weight: 900;
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  position: absolute;
+  bottom: 40px;
 }
 h2 {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
 }
 h3 {
   font-style: italic;
   font-weight: 700;
+  font-style: 18px;
 }
 
 .banner {
@@ -36,10 +45,21 @@ h3 {
 */
   background-size: cover;
   height: 460px;
+  position: relative;
+}
+
+.banner p{
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 /* Footer */
 footer {
   background-color: #ccc;
   text-align: center;
+  line-height: 40px;
 }
