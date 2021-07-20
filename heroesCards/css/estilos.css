@@ -1,0 +1,120 @@
+/* Estilos generales */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+header,
+.button,
+footer {
+  background-color: #00669f;
+}
+/* header */
+.publicidad {
+  background-color: #1cd1b0;
+  font-style: 15px;
+  height: 38px;
+  line-height: 38px;
+  padding-left: 10px;
+}
+header {
+  height: 100px;
+  box-shadow: 0 10px 7px rgba(0, 0, 0, 0.25);
+  padding-left: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+h1 {
+  font-size: 40px;
+  line-height: 100px;
+}
+/* main */
+.card,
+.avatar,
+.button {
+  box-shadow: 0 10px 7px rgba(0, 0, 0, 0.25);
+}
+.container {
+  width: 80%;
+  margin: 110px auto;
+  height: 630px;
+}
+.card {
+  height: 530px;
+  display: inline-block;
+  width: 300px;
+  margin: 30px;
+  background-color: #f3f3f3;
+  border-radius: 18px 18px 0 0;
+  position: relative;
+}
+.card-img {
+  height: 193px;
+  border-radius: 16px 16px 0 0;
+}
+.avatar {
+  position: absolute;
+  border-radius: 50%;
+  top: 125px;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.bg-batman {
+  background: #00669f url("../img/bg-batman.png") no-repeat center;
+}
+.bg-harley {
+  background: #00669f url("../img/bg-quinn.png") no-repeat center;
+}
+.like {
+  color: #cc2424;
+  margin: 10px;
+  font-size: 30px;
+}
+.card-text {
+  margin-top: 75px;
+}
+.card-text p {
+  height: 113px;
+  padding: 16px;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+p {
+  font-size: 16px;
+}
+
+.button {
+  height: 48px;
+  width: 129px;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.button a {
+  color: #fff;
+  text-align: center;
+  display: block;
+  height: inherit;
+  line-height: 48px;
+}
+/* footer */
+footer {
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+}
