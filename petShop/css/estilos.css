@@ -147,7 +147,7 @@ nav ul a {
   align-items: center;
 }
 .footer-contacto{
-  width: 20%;
+  min-width: 20%;
 }
 .footer-contacto>div{
   display: flex;
