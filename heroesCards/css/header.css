@@ -1,0 +1,19 @@
+.publicidad {
+    background-color: #1cd1b0;
+    font-style: 15px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 10px;
+  }
+  header {
+    height: 100px;
+    box-shadow: 0 10px 7px rgba(0, 0, 0, 0.25);
+    padding-left: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 100px;
+  }
