@@ -54,9 +54,30 @@ nav ul {
 nav ul a {
   padding: 10px;
 }
-.icon-menu{
+.icon-menu {
   display: none;
 }
+/* nav ul li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: inline-block;
+  margin-left: 10px;
+} */
+nav ul li::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f1b0";
+  color: #fff;
+  margin-left: 5px;
+  margin-right: -5px;
+}
+
+/* nav ul li:nth-child(1)::before {
+  content: " ";
+} */
 
 /* Main */
 .section-banner {
@@ -191,27 +212,27 @@ nav ul a {
 }
 
 @media screen and (max-width: 480px) {
-  .publicidad{
+  .publicidad {
     display: none;
   }
-  header{
+  header {
     justify-content: space-between;
   }
   .logo {
     font-size: 0.7rem;
   }
-  nav ul{
+  nav ul {
     display: none;
   }
-  .icon-menu{
+  .icon-menu {
     display: block;
     font-size: 1.5rem;
     color: white;
     margin-left: 25%;
   }
-.section-banner{
-  justify-content: flex-end;
-}
+  .section-banner {
+    justify-content: flex-end;
+  }
   .footer-container {
     flex-direction: column;
     padding-bottom: 0;
@@ -226,6 +247,5 @@ nav ul a {
     width: 100%;
     margin-left: 20%;
     font-size: 0.8rem;
-
   }
 }
