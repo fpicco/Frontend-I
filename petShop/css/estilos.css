@@ -14,6 +14,7 @@ ul {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /* Header */
 .publicidad {
@@ -89,7 +90,7 @@ nav ul li::before {
   text-align: center;
   display: flex;
   justify-content: flex-end;
-  align-content: center;
+  align-items: center;
   padding: 20px;
 }
 .section-banner h2,
@@ -165,9 +166,16 @@ nav ul li::before {
   color: #f0a83e;
 }
 /* Form */
-form {
+.contactanos form {
   width: 30%;
   margin: auto;
+  margin-top: 50px;
+}
+.contactanos form h4 {
+  color: #3c2313;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
 }
 .form-inputs {
   display: flex;
@@ -177,10 +185,7 @@ form {
 .form-inputs label {
   visibility: hidden;
 }
-form h4{
-  text-align: center;
-}
-input {
+.contactanos input {
   border-radius: 15px;
   color: #fff;
   border: none;
@@ -188,21 +193,25 @@ input {
 }
 input[type="text"],
 input[type="email"],
-input[type="tel"] {
+input[type="tel"],
+button[type="submit"] {
   background-color: #3c2313;
   padding: 5px;
 }
 input::placeholder {
   color: #fff;
+  font-size: 9px;
+  padding-left: 15px;
 }
-.form-botones{
+.form-botones {
   display: flex;
   justify-content: space-between;
   width: 70%;
-  margin: 40px auto ;
+  margin: 40px auto;
 }
-.form-botones input{
+.form-botones input {
   width: 48%;
+  font-size: 16px;
 }
 input[type="reset"] {
   background-color: #8a8787;
@@ -211,6 +220,49 @@ input[type="submit"] {
   background-color: #f0a83e;
 }
 /* Footer */
+.footer-suscripcion {
+  background-color: #f0a83e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+}
+.footer-suscripcion p {
+  font-size: 20px;
+  color: #fff;
+}
+.footer-suscripcion p::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0e0";
+  margin-right: 20px;
+}
+.footer-suscripcion form {
+  display: flex;
+}
+.footer-suscripcion input[type="email"] {
+  background-color: #fff;
+  width: 270px;
+  height: 40px;
+}
+.footer-suscripcion input[type="email"]::placeholder {
+  color: #a0a0a0;
+}
+
+.footer-suscripcion input[type="email"],
+button[type="submit"] {
+  border: none;
+  border-radius: 18px;
+  font-size: 9px;
+  height: 40px;
+}
+
+button[type="submit"] {
+  color: #fff;
+  width: 70px;
+  margin: 0 20px 0;
+}
 .footer-container {
   color: #fff;
   background-color: #3c2313;
@@ -280,6 +332,47 @@ input[type="submit"] {
   .section-banner {
     justify-content: flex-end;
   }
+
+  /* Form */
+  .contactanos form {
+    width: 100%;
+  }
+  .contactanos form h4 {
+    font-size: 30px;
+  }
+  .form-inputs {
+    width: 80%;
+    margin: auto;
+  }
+  .form-inputs label {
+    visibility: hidden;
+  }
+
+  .form-botones {
+    width: 100%;
+  }
+  .form-botones input {
+    width: 49%;
+  }
+
+  /* footer */
+  .footer-suscripcion {
+    flex-direction: column;
+    height: auto;
+  }
+  .footer-suscripcion p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .footer-suscripcion input[type="email"] {
+    width: 170px;
+  }
+  .footer-suscripcion input[type="email"],
+  button[type="submit"] {
+    margin-bottom: 10px;
+  }
+
   .footer-container {
     flex-direction: column;
     padding-bottom: 0;
