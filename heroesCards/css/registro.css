@@ -1,0 +1,9 @@
+main div {
+    height: 528px;}
+ form input[type="button"]{
+     width: 48%;
+ }
+ form input[type="button"]:nth-child(1){
+     background-color: #888888;
+     color: #fff;
+ }

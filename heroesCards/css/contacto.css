@@ -1,0 +1,13 @@
+main div {
+  height: 628px;
+}
+textarea{
+    height: 250px;
+}
+form input[type="button"] {
+  width: 48%;
+}
+form input[type="button"]:nth-child(1) {
+  background-color: #888888;
+  color: #fff;
+}

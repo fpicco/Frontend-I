@@ -1,0 +1,53 @@
+html{
+    font-size: 10px; 
+ }
+ main div {
+   height: 428px;
+   width: 40%;
+   margin: 50px auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+ main div h2{
+     align-self: start;
+     font-size: 7.2rem;
+     margin-bottom: 20px;
+ }
+ main div form {
+   display: flex;
+   flex-direction: column;
+ 
+ }
+ form label, form input{
+     font-size: 2rem;
+ }
+ form input, form select{
+     height: 50px;
+     margin-bottom: 10px;
+ }
+ .botones{
+    height: auto;
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+}
+
+ form input[type="button"]{
+     height: 54px;
+     background-color: #1cd1b0;
+     border-radius: 23px;
+     border: none;
+     font-size: 2.4rem;
+     margin: 20px 0 15px;
+     cursor: pointer;
+ }
+ form p {
+     align-self: center;
+ }
+ form p a{
+     color: #00669F;
+ 
+ }
