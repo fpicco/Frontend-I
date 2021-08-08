@@ -15,3 +15,6 @@
   footer {
     background-color: #00669f;
   }
+  li{
+    list-style-type: none;
+  }
