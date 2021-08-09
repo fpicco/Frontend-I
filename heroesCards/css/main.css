@@ -107,6 +107,7 @@ p {
   display: block;
   height: inherit;
   line-height: 48px;
+  font-size: 1.6rem;
 }
 .button:hover {
   background-color: #000;
