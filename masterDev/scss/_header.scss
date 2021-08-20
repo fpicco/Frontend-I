@@ -1,0 +1,6 @@
+header {
+  font-size: 1.8rem;
+  @extend %flexbetween;
+  height: 70px;
+  border-bottom: 1px solid $bg-secondary;
+}
