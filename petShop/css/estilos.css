@@ -274,12 +274,56 @@ button[type="submit"] {
 .footer-contacto {
   min-width: 20%;
 }
-.footer-contacto > div {
+.container {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap:15px;
+  grid-template-areas:
+    "icono-ubi texto-ubi "
+    "icono-tel texto-tel "
+    "icono-email texto-email ";
+  align-items: center;
+}
+.icono-ubi,
+.icono-tel,
+.icono-email {
+  font-size: 2rem;
+}
+.texto-ubi h5,
+.texto-tel h5,
+.texto-email  h5{
+  font-size: 1.2rem;
+}
+.texto-ubi p,
+.texto-tel p,
+.texto-email  p{
+  font-size: .8rem;
+}
+.icono-ubi {
+  grid-area: icono-ubi;
+}
+.texto-ubi {
+  grid-area: texto-ubi;
+}
+.icono-tel {
+  grid-area: icono-tel;
+}
+.texto-tel {
+  grid-area: texto-tel;
+}
+.icono-email {
+  grid-area: icono-email;
+}
+.texto-email {
+  grid-area: texto-email;
+}
+/* .footer-contacto > div {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
-}
-.footer-contacto-info {
+} */
+/* .footer-contacto-info {
   padding-left: 5%;
   width: 70%;
 }
@@ -295,7 +339,7 @@ button[type="submit"] {
 }
 .footer-contacto i {
   font-size: 60px;
-}
+}*/
 .logo-footer h2 {
   color: #fff;
 }
